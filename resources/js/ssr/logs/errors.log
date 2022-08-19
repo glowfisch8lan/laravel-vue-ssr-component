@@ -1,0 +1,231 @@
+TypeError: Cannot read properties of undefined (reading 'props')TypeError: Cannot read properties of undefined (reading 'props')
+TypeError: Cannot read properties of undefined (reading 'props')
+TypeError: Cannot read properties of undefined (reading 'props')
+TypeError: Cannot read properties of undefined (reading 'props')
+Error: Module build failed (from ../../node_modules/babel-loader/lib/index.js):
+SyntaxError: /app/resources/js/components.js: Unexpected token (3:16)
+
+[0m [90m 1 |[39m [36mimport[39m [33mFooterComponent[39m [36mfrom[39m [32m"./vue/main/FooterComponent"[39m[33m;[39m[0m
+[0m [90m 2 |[39m [36mimport[39m [33mHeaderComponent[39m [36mfrom[39m [32m"./vue/main/HeaderComponent"[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m [33mApp[39m [36mfrom[39m [33m;[39m[0m
+[0m [90m   |[39m                 [31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m [33mCourses[39m [36mfrom[39m [32m"./vue/courses/Courses"[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36mexport[39m [36mdefault[39m {[0m
+    at Parser._raise (/app/node_modules/@babel/parser/lib/index.js:506:17)
+    at Parser.raiseWithData (/app/node_modules/@babel/parser/lib/index.js:499:17)
+    at Parser.raise (/app/node_modules/@babel/parser/lib/index.js:460:17)
+    at Parser.unexpected (/app/node_modules/@babel/parser/lib/index.js:3699:16)
+    at Parser.parseImportSource (/app/node_modules/@babel/parser/lib/index.js:15521:32)
+    at Parser.parseImport (/app/node_modules/@babel/parser/lib/index.js:15503:24)
+    at Parser.parseStatementContent (/app/node_modules/@babel/parser/lib/index.js:14052:27)
+    at Parser.parseStatement (/app/node_modules/@babel/parser/lib/index.js:13942:17)
+    at Parser.parseBlockOrModuleBlockBody (/app/node_modules/@babel/parser/lib/index.js:14567:25)
+    at Parser.parseBlockBody (/app/node_modules/@babel/parser/lib/index.js:14558:10)
+    at Parser.parseProgram (/app/node_modules/@babel/parser/lib/index.js:13861:10)
+    at Parser.parseTopLevel (/app/node_modules/@babel/parser/lib/index.js:13848:25)
+    at Parser.parse (/app/node_modules/@babel/parser/lib/index.js:15736:10)
+    at parse (/app/node_modules/@babel/parser/lib/index.js:15788:38)
+    at parser (/app/node_modules/@babel/core/lib/parser/index.js:52:34)
+    at parser.next (<anonymous>)
+TypeError: vue.components is not a function
+TypeError: Cannot read properties of undefined (reading 'components')
+Error: render function or template not defined in component: anonymous
+Error: Cannot find module '../../components'
+Error: Module build failed (from ../../node_modules/babel-loader/lib/index.js):
+SyntaxError: /app/resources/js/vue-init.js: Missing semicolon. (39:20)
+
+[0m [90m 37 |[39m     [33mVue[39m[33m.[39mcomponent([32m'courses'[39m[33m,[39m require([32m'./vue/courses/Courses'[39m)[33m.[39m[36mdefault[39m)[33m;[39m[0m
+[0m [90m 38 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 39 |[39m     [33mVue[39m[33m.[39muse([33mToasted[39m) todo[33m:[39m error[0m
+[0m [90m    |[39m                     [31m[1m^[22m[39m[0m
+[0m [90m 40 |[39m[0m
+[0m [90m 41 |[39m     [90m//[39m[0m
+[0m [90m 42 |[39m     [90m// // Vue.component('course-reviews', require('./vue/courses/Review').default);[39m[0m
+    at Parser._raise (/app/node_modules/@babel/parser/lib/index.js:506:17)
+    at Parser.raiseWithData (/app/node_modules/@babel/parser/lib/index.js:499:17)
+    at Parser.raise (/app/node_modules/@babel/parser/lib/index.js:460:17)
+    at Parser.semicolon (/app/node_modules/@babel/parser/lib/index.js:3677:10)
+    at Parser.parseExpressionStatement (/app/node_modules/@babel/parser/lib/index.js:14525:10)
+    at Parser.parseStatementContent (/app/node_modules/@babel/parser/lib/index.js:14090:19)
+    at Parser.parseStatement (/app/node_modules/@babel/parser/lib/index.js:13942:17)
+    at Parser.parseBlockOrModuleBlockBody (/app/node_modules/@babel/parser/lib/index.js:14567:25)
+    at Parser.parseBlockBody (/app/node_modules/@babel/parser/lib/index.js:14558:10)
+    at Parser.parseBlock (/app/node_modules/@babel/parser/lib/index.js:14542:10)
+    at Parser.parseFunctionBody (/app/node_modules/@babel/parser/lib/index.js:13269:24)
+    at Parser.parseArrowExpression (/app/node_modules/@babel/parser/lib/index.js:13241:10)
+    at Parser.parseParenAndDistinguishExpression (/app/node_modules/@babel/parser/lib/index.js:12753:12)
+    at Parser.parseExprAtom (/app/node_modules/@babel/parser/lib/index.js:12321:23)
+    at Parser.parseExprSubscripts (/app/node_modules/@babel/parser/lib/index.js:11999:23)
+    at Parser.parseUpdate (/app/node_modules/@babel/parser/lib/index.js:11979:21)
+ReferenceError: Toasted is not defined
+ReferenceError: window is not defined
+ReferenceError: window is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: window is not defined
+ReferenceError: window is not defined
+ReferenceError: window is not defined
+SyntaxError: Unexpected token '.'
+SyntaxError: Unexpected token '}'
+SyntaxError: Unexpected token '}'
+SyntaxError: Unexpected token '}'
+SyntaxError: Unexpected token '}'
+ReferenceError: window is not defined
+SyntaxError: Unexpected token '}'
+ReferenceError: window is not defined
+SyntaxError: Unexpected token '.'
+ReferenceError: window is not defined
+ReferenceError: window is not defined
+ReferenceError: window is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+Error: Module build failed (from ../../node_modules/babel-loader/lib/index.js):
+SyntaxError: /app/resources/js/ssr/entry/app.js: Unexpected token, expected "," (13:4)
+
+[0m [90m 11 |[39m [36mexport[39m [36mdefault[39m context [33m=>[39m {[0m
+[0m [90m 12 |[39m     console[33m.[39mlog(([36mnew[39m [33mWindow[39m()[33m.[39mdocument)[0m
+[0m[31m[1m>[22m[39m[90m 13 |[39m     [36mconst[39m vue [33m=[39m vueInit([33mVue[39m)[0m
+[0m [90m    |[39m     [31m[1m^[22m[39m[0m
+[0m [90m 14 |[39m     [36mconst[39m component [33m=[39m vue[33m.[39moptions[33m.[39mcomponents[process[33m.[39margv[[35m2[39m]][0m
+[0m [90m 15 |[39m     [36mreturn[39m [36mnew[39m vue(component)[0m
+[0m [90m 16 |[39m }[33m;[39m[0m
+    at Parser._raise (/app/node_modules/@babel/parser/lib/index.js:506:17)
+    at Parser.raiseWithData (/app/node_modules/@babel/parser/lib/index.js:499:17)
+    at Parser.raise (/app/node_modules/@babel/parser/lib/index.js:460:17)
+    at Parser.unexpected (/app/node_modules/@babel/parser/lib/index.js:3699:16)
+    at Parser.expect (/app/node_modules/@babel/parser/lib/index.js:3683:28)
+    at Parser.parseCallExpressionArguments (/app/node_modules/@babel/parser/lib/index.js:12201:14)
+    at Parser.parseCoverCallAndAsyncArrowHead (/app/node_modules/@babel/parser/lib/index.js:12118:29)
+    at Parser.parseSubscript (/app/node_modules/@babel/parser/lib/index.js:12047:19)
+    at Parser.parseSubscripts (/app/node_modules/@babel/parser/lib/index.js:12016:19)
+    at Parser.parseExprSubscripts (/app/node_modules/@babel/parser/lib/index.js:12005:17)
+    at Parser.parseUpdate (/app/node_modules/@babel/parser/lib/index.js:11979:21)
+    at Parser.parseMaybeUnary (/app/node_modules/@babel/parser/lib/index.js:11954:23)
+    at Parser.parseMaybeUnaryOrPrivate (/app/node_modules/@babel/parser/lib/index.js:11751:61)
+    at Parser.parseExprOps (/app/node_modules/@babel/parser/lib/index.js:11758:23)
+    at Parser.parseMaybeConditional (/app/node_modules/@babel/parser/lib/index.js:11728:23)
+    at Parser.parseMaybeAssign (/app/node_modules/@babel/parser/lib/index.js:11688:21)
+ReferenceError: Window is not defined
+SyntaxError: Unexpected token '{'
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+SyntaxError: Invalid or unexpected token
+SyntaxError: Invalid or unexpected token
+TypeError: vue.created is not a function
+ReferenceError: window is not defined
+ReferenceError: window is not defined
+ReferenceError: window is not defined
+ReferenceError: window is not defined
+ReferenceError: window is not defined
+Error: Module build failed (from ../../node_modules/babel-loader/lib/index.js):
+SyntaxError: /app/resources/js/vue-init.js: 'import' and 'export' may only appear at the top level. (35:8)
+
+[0m [90m 33 |[39m[0m
+[0m [90m 34 |[39m     [36mif[39m ([33m![39mssr) {[0m
+[0m[31m[1m>[22m[39m[90m 35 |[39m         [36mimport[39m [33mToasted[39m [36mfrom[39m [32m'vue-toasted'[39m[0m
+[0m [90m    |[39m         [31m[1m^[22m[39m[0m
+[0m [90m 36 |[39m         console[33m.[39mlog(ssr)[0m
+[0m [90m 37 |[39m        [90m// Vue.use(Toasted)[39m[0m
+[0m [90m 38 |[39m     }[0m
+    at Parser._raise (/app/node_modules/@babel/parser/lib/index.js:506:17)
+    at Parser.raiseWithData (/app/node_modules/@babel/parser/lib/index.js:499:17)
+    at Parser.raise (/app/node_modules/@babel/parser/lib/index.js:460:17)
+    at Parser.parseStatementContent (/app/node_modules/@babel/parser/lib/index.js:14043:18)
+    at Parser.parseStatement (/app/node_modules/@babel/parser/lib/index.js:13942:17)
+    at Parser.parseBlockOrModuleBlockBody (/app/node_modules/@babel/parser/lib/index.js:14567:25)
+    at Parser.parseBlockBody (/app/node_modules/@babel/parser/lib/index.js:14558:10)
+    at Parser.parseBlock (/app/node_modules/@babel/parser/lib/index.js:14542:10)
+    at Parser.parseStatementContent (/app/node_modules/@babel/parser/lib/index.js:14026:21)
+    at Parser.parseStatement (/app/node_modules/@babel/parser/lib/index.js:13942:17)
+    at Parser.parseIfStatement (/app/node_modules/@babel/parser/lib/index.js:14329:28)
+    at Parser.parseStatementContent (/app/node_modules/@babel/parser/lib/index.js:13993:21)
+    at Parser.parseStatement (/app/node_modules/@babel/parser/lib/index.js:13942:17)
+    at Parser.parseBlockOrModuleBlockBody (/app/node_modules/@babel/parser/lib/index.js:14567:25)
+    at Parser.parseBlockBody (/app/node_modules/@babel/parser/lib/index.js:14558:10)
+    at Parser.parseBlock (/app/node_modules/@babel/parser/lib/index.js:14542:10)
+Error: render function or template not defined in component: anonymous
+ReferenceError: document is not defined
+ReferenceError: window is not defined
+ReferenceError: Package is not defined
+ReferenceError: document is not defined
+TypeError: Cannot set properties of undefined (setting '_')
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: vueInit is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+SyntaxError: Unexpected token 'this'
+ReferenceError: document is not defined
+SyntaxError: Unexpected token 'instanceof'
+ReferenceError: document is not defined
+SyntaxError: Unexpected token ')'
+ReferenceError: getClass is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+TypeError: document.getElementsByTagName is not a function
+ReferenceError: exit is not defined
+TypeError: Cannot read properties of null (reading 'head')
+TypeError: document.getElementsByTagName is not a function
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+TypeError: Cannot read properties of undefined (reading 'render')
+TypeError: Cannot read properties of undefined (reading 'render')
+ReferenceError: document is not defined
+ReferenceError: window is not defined
+TypeError: Cannot read properties of undefined (reading 'use')
+TypeError: Cannot read properties of undefined (reading 'use')
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+TypeError: exports is not a function
+Error: ES Modules may not assign module.exports or exports.*, Use ESM export syntax, instead: 3657
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+TypeError: Promise.resolve(...).then(...) is not a function
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: window is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+TypeError: Cannot read properties of undefined (reading 'render')
+TypeError: Cannot read properties of undefined (reading 'render')
+TypeError: Cannot read properties of undefined (reading 'render')
+TypeError: Cannot read properties of undefined (reading 'render')
+ReferenceError: myLibrary is not defined
+TypeError: Cannot read properties of undefined (reading 'render')
+ReferenceError: document is not defined
+ReferenceError: document is not defined
+Error: render function or template not defined in component: anonymous
+Error: render function or template not defined in component: anonymous
+Error: render function or template not defined in component: anonymous
+Error: render function or template not defined in component: anonymous
